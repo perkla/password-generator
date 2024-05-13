@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PASSWORD GENERATOR v1.0.0.0.15</h1>
+        <h3>PASSWORD HIMSELF:</h3>
+
+        <div class="form-group">
+            <label for="password-length">
+                Length:
+                <select name="" id="password-length">
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                </select>
+            </label>
+            <label for="include-numbers">
+                <input type="checkbox" name="" id="include-numbers">
+                Numbers
+            </label>
+            <label for="include-uppercase">
+                <input type="checkbox" name="" id="include-uppercase">
+                Possible Uppercase
+            </label>
+            <label for="include-special">
+                <input type="checkbox" name="" id="include-special">
+                Special Characters
+            </label>
+            <button class="generate-btn">Generate</button>
+            <button class="password-output">Copy</button>
+        </div>
+    </div>
+</body>
+
+</html>
